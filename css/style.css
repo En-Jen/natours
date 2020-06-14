@@ -562,7 +562,8 @@ body {
     @media (max-width: 75em) {
       .popup__right {
         width: 100%;
-        display: block; } }
+        display: block;
+        text-align: center; } }
   .popup__img {
     display: block;
     width: 100%; }
@@ -589,6 +590,9 @@ body {
     column-rule: 1px solid #eee;
     -moz-hyphens: auto;
     hyphens: auto; }
+    @media (max-width: 75em) {
+      .popup__text {
+        text-align: justify; } }
   .popup:target {
     opacity: 1;
     visibility: visible; }
