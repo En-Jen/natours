@@ -26,11 +26,11 @@
 
             <nav class="navigation__nav">
                 <ul class="navigation__list">
-                    <li class="navigation__item"><a href="#" class="navigation__link"><span>01</span>About Natours</a></li>
-                    <li class="navigation__item"><a href="#" class="navigation__link"><span>02</span>Your benefits</a></li>
-                    <li class="navigation__item"><a href="#" class="navigation__link"><span>03</span>Popular tours</a></li>
-                    <li class="navigation__item"><a href="#" class="navigation__link"><span>04</span>Stories</a></li>
-                    <li class="navigation__item"><a href="#" class="navigation__link"><span>05</span>Book now</a></li>
+                    <li class="navigation__item"><a href="#section-about" class="navigation__link"><span>01</span>About Natours</a></li>
+                    <li class="navigation__item"><a href="#section-features" class="navigation__link"><span>02</span>Your benefits</a></li>
+                    <li class="navigation__item"><a href="#section-tours" class="navigation__link"><span>03</span>Popular tours</a></li>
+                    <li class="navigation__item"><a href="#section-stories" class="navigation__link"><span>04</span>Stories</a></li>
+                    <li class="navigation__item"><a href="#section-book" class="navigation__link"><span>05</span>Book now</a></li>
                 </ul>
             </nav>
         </div>
@@ -50,7 +50,7 @@
         </header>
 
         <main>
-            <section class="section-about">
+            <section class="section-about" id="section-about">
                 <div class="u-center-text u-margin-bottom-big">
                     <h2 class="heading-secondary">
                         Exciting tours for adventurous people
@@ -71,19 +71,19 @@
                         <div class="composition">
 
                             <img srcset="img/nat-1.jpg 300w, img/nat-1-large.jpg 1000w"
-                                sizes="(max-width: 900px) 20vw, (max-width: 600px) 30vw, 300px"
+                                sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
                                 alt="Photo 1"
                                 class="composition__photo composition__photo--p1"
                                 src="img/nat-1-large.jpg">
 
                             <img srcset="img/nat-2.jpg 300w, img/nat-2-large.jpg 1000w"
-                                sizes="(max-width: 900px) 20vw, (max-width: 600px) 30vw, 300px"
+                                sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
                                 alt="Photo 2"
                                 class="composition__photo composition__photo--p2"
                                 src="img/nat-2-large.jpg">
 
                             <img srcset="img/nat-3.jpg 300w, img/nat-3-large.jpg 1000w"
-                                sizes="(max-width: 900px) 20vw, (max-width: 600px) 30vw, 300px"
+                                sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
                                 alt="Photo 3"
                                 class="composition__photo composition__photo--p3"
                                 src="img/nat-3-large.jpg">
@@ -99,7 +99,7 @@
                 </div>
             </section>
 
-            <section class="section-features">
+            <section class="section-features" id="section-features">
                 <div class="row">
                     <div class="col-1-of-4">
                         <div class="feature-box">
@@ -143,7 +143,7 @@
                 </div>
             </section>
 
-            <section class="section-tours">
+            <section class="section-tours" id="section-tours">
                 <div class="u-center-text u-margin-bottom-big">
                     <h2 class="heading-secondary">
                         Most popular tours
@@ -250,7 +250,7 @@
                 </div>
             </section>
 
-            <section class="section-stories">
+            <section class="section-stories" id="section-stories">
                 <div class="bg-video">
                     <video class="bg-video__content" autoplay muted loop>
                         <source src="img/video.mp4" type="video/mp4">
@@ -267,14 +267,16 @@
                 <div class="row">
                     <div class="story">
                         <figure class="story__shape">
+
                             <img srcset="img/nat-8-small.jpg 400w, img/nat-8.jpg 2000w"
-                                sizes="(max-width: 1200px) 24vw, (max-width: 900px) 24vw, (max-width: 600px) 43vw, 320px"
+                                sizes="(max-width: 75em) 24vw, (max-width: 56.25em) 24vw, (max-width: 37.5em) 43vw, 320px"
                                 alt="Person on a tour"
                                 class="story__img"
                                 src="img/nat-8.jpg">
                             <!--
                             <img src="img/nat-8.jpg" alt="Person on a tour" class="story__img">
                             -->
+
                             <figcaption class="story__caption">Mary Smith</figcaption>
                         </figure>
                         <div class="story__text">
@@ -289,14 +291,16 @@
                 <div class="row">
                     <div class="story">
                         <figure class="story__shape">
+
                             <img srcset="img/nat-9-small.jpg 400w, img/nat-9.jpg 2000w"
-                                sizes="(max-width: 1200px) 24vw, (max-width: 900px) 24vw, (max-width: 600px) 43vw, 320px"
+                                sizes="(max-width: 75em) 24vw, (max-width: 56.25em) 24vw, (max-width: 37.5em) 43vw, 320px"
                                 alt="Person on a tour"
                                 class="story__img"
                                 src="img/nat-9.jpg">
                             <!--
                             <img src="img/nat-9.jpg" alt="Person on a tour" class="story__img">
                             -->
+
                             <figcaption class="story__caption">Jack Wilson</figcaption>
                         </figure>
                         <div class="story__text">
@@ -313,7 +317,7 @@
                 </div>
             </section>
 
-            <section class="section-book">
+            <section class="section-book" id="section-book">
                 <div class="row">
                     <div class="book">
                         <div class="book__form">
@@ -387,7 +391,7 @@
                     </div>
                     <div class="col-1-of-2">
                         <p class="footer__copyright">
-                            Built by <a href="" class="footer__link">Jen Speak</a> using the Udemy course <a href="#" class="footer__link">Advanced CSS and Sass</a>. Copyright &copy; by Jonas Schmedtmann. You are 100% allowed to use this webpage for both personal and commercial use, but NOT to claim it as your own design. A credit to the original author, Jonas Schmedtmann, is of course highly appreciated!
+                            Built by <a href="https://github.com/En-Jen" target="blank" class="footer__link">Jen Speak</a> using the Udemy course <a href="https://www.udemy.com/course/advanced-css-and-sass/" target="_blank" class="footer__link">Advanced CSS and Sass</a>. Copyright &copy; by Jonas Schmedtmann. You are 100% allowed to use this webpage for both personal and commercial use, but NOT to claim it as your own design. A credit to the original author, Jonas Schmedtmann, is of course highly appreciated!
                         </p>
                     </div>
                 </div>
@@ -398,13 +402,13 @@
                 <div class="popup__left">
 
                     <img srcset="img/nat-8-small.jpg 400w, img/nat-8.jpg 2000w"
-                                sizes="(max-width: 1200px) 24vw, (max-width: 900px) 24vw, (max-width: 600px) 40vw, 375px"
+                                sizes="(max-width: 75em) 24vw, (max-width: 56.25em) 24vw, (max-width: 37.5em) 40vw, 375px"
                                 alt="Tour photo"
                                 class="popup__img"
                                 src="img/nat-8.jpg">
 
                     <img srcset="img/nat-9-small.jpg 400w, img/nat-9.jpg 2000w"
-                                sizes="(max-width: 1200px) 24vw, (max-width: 900px) 24vw, (max-width: 600px) 40vw, 375px"
+                                sizes="(max-width: 75em) 24vw, (max-width: 56.25em) 24vw, (max-width: 37.5em) 40vw, 375px"
                                 alt="Tour photo"
                                 class="popup__img"
                                 src="img/nat-9.jpg">
